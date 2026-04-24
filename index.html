@@ -1,0 +1,1720 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script>
+      document.documentElement.classList.add("js");
+    </script>
+    <noscript
+      ><style>
+        .reveal {
+          opacity: 1 !important;
+          transform: none !important;
+        }
+      </style></noscript
+    >
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width,initial-scale=1,viewport-fit=cover"
+    />
+    <meta name="theme-color" content="#12100C" />
+
+    <title>$MASCOTS · 2026 World Cup Mascots — Solana Memecoin</title>
+    <meta
+      name="description"
+      content="$MASCOTS is the community memecoin for the 2026 FIFA World Cup — hosted by Mexico, Canada and the USA. LP burned, zero tax, three mascots, one cup. Buy on Solana."
+    />
+
+    <!-- Canonical + alts -->
+    <link rel="canonical" href="/" />
+
+    <!-- Favicons -->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="icons/favicon-32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="icons/favicon-16.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="icons/apple-touch-180.png"
+    />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="$MASCOTS · 2026 World Cup" />
+    <meta
+      property="og:title"
+      content="$MASCOTS — the 2026 World Cup Mascots memecoin on Solana"
+    />
+    <meta
+      property="og:description"
+      content="Three hosts. Three mascots. One cup. LP burned, zero tax, community only."
+    />
+    <meta property="og:url" content="/" />
+    <meta
+      property="og:image"
+      content="/Assets/freepik__epic-hero-shot-of-three-mascot-characters-standing__84668.png"
+    />
+    <meta property="og:image:width" content="1536" />
+    <meta property="og:image:height" content="1024" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@mascots2026" />
+    <meta name="twitter:creator" content="@mascots2026" />
+    <meta
+      name="twitter:title"
+      content="$MASCOTS — 2026 World Cup Mascots (Solana)"
+    />
+    <meta
+      name="twitter:description"
+      content="A Solana memecoin for the biggest tournament ever played. Mexico · Canada · USA."
+    />
+    <meta
+      name="twitter:image"
+      content="/Assets/freepik__epic-hero-shot-of-three-mascot-characters-standing__84668.png"
+    />
+
+    <!-- Performance hints -->
+    <link
+      rel="preload"
+      as="image"
+      href="Assets/hero.webp"
+      type="image/webp"
+      fetchpriority="high"
+    />
+    <link
+      rel="preload"
+      as="font"
+      type="font/otf"
+      href="Assets/fonts/Sports%20World-Regular.otf"
+      crossorigin
+    />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bungee&family=Staatliches&family=Libre+Franklin:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <a href="#squad" class="sr">Skip to content</a>
+
+    <!-- ============== ICON SPRITE (Lucide / open-source glyphs) ============== -->
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width="0"
+      height="0"
+      style="position: absolute"
+      aria-hidden="true"
+    >
+      <defs>
+        <!-- Soccer ball -->
+        <symbol id="i-ball" viewBox="0 0 64 64">
+          <circle
+            cx="32"
+            cy="32"
+            r="30"
+            fill="#F5ECD6"
+            stroke="#12100C"
+            stroke-width="3"
+          />
+          <polygon points="32,14 41,21 37,32 27,32 23,21" fill="#12100C" />
+          <polygon points="18,28 24,33 22,43 12,40 11,30" fill="#12100C" />
+          <polygon points="46,28 52,31 51,40 42,42 40,33" fill="#12100C" />
+          <polygon points="27,40 37,40 40,48 32,54 24,48" fill="#12100C" />
+        </symbol>
+        <!-- Trophy -->
+        <symbol
+          id="i-trophy"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6" />
+          <path d="M18 9h1.5a2.5 2.5 0 0 0 0-5H18" />
+          <path d="M4 22h16" />
+          <path
+            d="M10 14.66V17c0 .55-.47.98-.97 1.21C7.85 18.75 7 20.24 7 22"
+          />
+          <path
+            d="M14 14.66V17c0 .55.47.98.97 1.21C16.15 18.75 17 20.24 17 22"
+          />
+          <path d="M18 2H6v7a6 6 0 0 0 12 0V2Z" />
+        </symbol>
+        <!-- Flame -->
+        <symbol
+          id="i-flame"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <path
+            d="M8.5 14.5A2.5 2.5 0 0 0 11 12c0-1.38-.5-2-1-3-1.072-2.143-.224-4.054 2-6 .5 2.5 2 4.9 4 6.5 2 1.6 3 3.5 3 5.5a7 7 0 1 1-14 0c0-1.153.433-2.294 1-3a2.5 2.5 0 0 0 2.5 2.5Z"
+          />
+        </symbol>
+        <!-- Shield (no tax) -->
+        <symbol
+          id="i-shield"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <path
+            d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"
+          />
+          <path d="m9 12 2 2 4-4" />
+        </symbol>
+        <!-- Users (team) -->
+        <symbol
+          id="i-users"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" />
+          <circle cx="9" cy="7" r="4" />
+          <path d="M22 21v-2a4 4 0 0 0-3-3.87" />
+          <path d="M16 3.13a4 4 0 0 1 0 7.75" />
+        </symbol>
+        <!-- Copy -->
+        <symbol
+          id="i-copy"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <rect width="14" height="14" x="8" y="8" rx="2" ry="2" />
+          <path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2" />
+        </symbol>
+        <!-- Arrow right -->
+        <symbol
+          id="i-arr"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2.5"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <path d="M5 12h14" />
+          <path d="m12 5 7 7-7 7" />
+        </symbol>
+        <!-- X / Twitter -->
+        <symbol id="i-x" viewBox="0 0 24 24" fill="currentColor">
+          <path
+            d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231 5.45-6.231Zm-1.161 17.52h1.833L7.084 4.126H5.117L17.083 19.77Z"
+          />
+        </symbol>
+        <!-- Telegram -->
+        <symbol id="i-tg" viewBox="0 0 24 24" fill="currentColor">
+          <path
+            d="M11.944 0C5.353 0 0 5.377 0 12a11.95 11.95 0 0 0 3.514 8.47A11.873 11.873 0 0 0 11.944 24C18.535 24 24 18.623 24 12S18.535 0 11.944 0Zm5.328 8.21-1.78 8.39c-.131.594-.487.738-.986.459l-2.726-2.01-1.316 1.268c-.146.146-.269.269-.55.269l.194-2.772 5.051-4.566c.22-.195-.048-.304-.34-.108l-6.24 3.93-2.69-.842c-.584-.184-.595-.584.122-.864l10.51-4.058c.487-.183.912.113.752.904Z"
+          />
+        </symbol>
+        <!-- Flask / wallet -->
+        <symbol
+          id="i-wallet"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <path
+            d="M19 7V5a2 2 0 0 0-2-2H5a2 2 0 0 0 0 4h15a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5"
+          />
+          <path d="M16 14h.01" />
+        </symbol>
+        <!-- Coin -->
+        <symbol
+          id="i-coin"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <circle cx="12" cy="12" r="10" />
+          <path d="M8 14h8" />
+          <path d="M16 10H8" />
+          <path d="M12 6v12" />
+        </symbol>
+        <!-- Swap/arrows -->
+        <symbol
+          id="i-swap"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <path d="m17 3 4 4-4 4" />
+          <path d="M21 7H9" />
+          <path d="m7 21-4-4 4-4" />
+          <path d="M3 17h12" />
+        </symbol>
+        <!-- Chart -->
+        <symbol
+          id="i-chart"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <path d="M3 3v18h18" />
+          <path d="m7 15 4-4 4 4 5-6" />
+        </symbol>
+        <!-- Check -->
+        <symbol
+          id="i-check"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="3"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <path d="M20 6 9 17l-5-5" />
+        </symbol>
+        <!-- Lock -->
+        <symbol
+          id="i-lock"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <rect width="18" height="11" x="3" y="11" rx="2" ry="2" />
+          <path d="M7 11V7a5 5 0 0 1 10 0v4" />
+        </symbol>
+        <!-- Whistle (custom) -->
+        <symbol
+          id="i-whistle"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <path d="M21 13a6 6 0 1 1-12 0 6 6 0 0 1 12 0Z" />
+          <path d="M9 13 3 9" />
+          <path d="M3 9h6" />
+          <path d="M15 13h.01" />
+        </symbol>
+        <!-- Globe -->
+        <symbol
+          id="i-globe"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <circle cx="12" cy="12" r="10" />
+          <path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20" />
+          <path d="M2 12h20" />
+        </symbol>
+        <!-- Calendar -->
+        <symbol
+          id="i-cal"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <rect width="18" height="18" x="3" y="4" rx="2" ry="2" />
+          <line x1="16" x2="16" y1="2" y2="6" />
+          <line x1="8" x2="8" y1="2" y2="6" />
+          <line x1="3" x2="21" y1="10" y2="10" />
+        </symbol>
+        <!-- Bolt / zap -->
+        <symbol
+          id="i-bolt"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2" />
+        </symbol>
+      </defs>
+    </svg>
+
+    <!-- ============== TOP BAR ============== -->
+    <div class="top" role="banner">
+      <div class="ticker-wrap" aria-hidden="true">
+        <div class="ticker">
+          <span class="live">Live · $MASCOTS / SOL</span>
+          <span class="hot">★ 2026 World Cup · Mexico · Canada · USA</span>
+          <span
+            ><img class="ball" src="Assets/football_nobg.webp" alt="" /> LP
+            burned</span
+          >
+          <span>Zero tax</span>
+          <span>No team supply</span>
+          <span class="hot">Chart loaded below</span>
+          <span>Squad: Zayu · Maple · Clutch</span>
+          <span class="live">Matchday every day</span>
+          <span>Solana only</span>
+        </div>
+      </div>
+      <button
+        class="sound-btn"
+        id="sound-toggle"
+        aria-pressed="true"
+        aria-label="Toggle sound effects"
+      >
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+          <path
+            class="wave"
+            fill="currentColor"
+            d="M3 10v4h4l5 4V6L7 10H3zm13.5 2a4.5 4.5 0 0 0-2.5-4v8a4.5 4.5 0 0 0 2.5-4zM14 3.23v2.06a7 7 0 0 1 0 13.42v2.06a9 9 0 0 0 0-17.54z"
+          />
+          <path
+            class="mute-x"
+            fill="currentColor"
+            d="M3 10v4h4l5 4V6L7 10H3zm16.59-2L22 10.41 20.41 12 22 13.59 20.59 15 19 13.41 17.41 15 16 13.59 17.59 12 16 10.41 17.41 9 19 10.59z"
+          />
+        </svg>
+        <span>Sound</span>
+      </button>
+    </div>
+    <div class="flag-stripe thick">
+      <span class="m"></span><span class="c"></span><span class="u"></span>
+    </div>
+
+    <!-- ============== NAV ============== -->
+    <nav class="nav" aria-label="Primary">
+      <div class="nav-inner">
+        <a class="logo-mark" href="#home" aria-label="MASCOTS home">
+          <img
+            class="logo-ball"
+            src="Assets/football_nobg.webp"
+            alt=""
+            aria-hidden="true"
+          />
+          <div class="logo-text">
+            <b>$MASCOTS</b>
+            <span>2026 World Cup</span>
+          </div>
+        </a>
+        <div class="menu">
+          <a href="#home" class="active">Home</a>
+          <a href="#squad">Squad</a>
+          <a href="#tokenomics">Tokenomics</a>
+          <a href="#chart">Chart</a>
+          <a href="#buy">How to buy</a>
+          <a href="#press">Press</a>
+          <a href="#memes">Memes</a>
+        </div>
+        <a
+          class="nav-cta"
+          href="https://pump.fun/coin/8GxLxKA8tf3h8JUkXFfP4dNyn6D2vvwyGif5wanRpump"
+          target="_blank"
+          rel="noopener"
+          data-sfx="whistle"
+        >
+          Buy Now <svg aria-hidden="true"><use href="#i-arr" /></svg>
+        </a>
+      </div>
+    </nav>
+
+    <!-- ============== HERO ============== -->
+    <header id="home" class="hero">
+      <!-- live confetti rain -->
+      <div class="confetti-rain" aria-hidden="true" id="confetti-rain"></div>
+
+      <div class="hero-grid">
+        <div>
+          <a
+            class="live-chip reveal"
+            href="https://x.com/mascots2026"
+            target="_blank"
+            rel="noopener"
+            aria-label="Follow @mascots2026 on X — live updates"
+          >
+            <span class="dot"></span> <b>Live</b>
+            <svg aria-hidden="true"><use href="#i-x" /></svg>
+            <span class="handle">@mascots2026</span>
+            <svg class="lc-arr" aria-hidden="true"><use href="#i-arr" /></svg>
+          </a>
+
+          <div class="match-meta reveal">
+            <div class="box">
+              <svg aria-hidden="true"><use href="#i-cal" /></svg
+              ><b>Season</b>2026
+            </div>
+            <div class="box">
+              <svg aria-hidden="true"><use href="#i-globe" /></svg
+              ><b>Venue</b>MX · CA · US
+            </div>
+          </div>
+
+          <h1 class="hero-title display reveal">
+            World Cup<br />
+            <span class="red">2026</span>
+          </h1>
+          <p class="hero-sub reveal">
+            A fan-made Solana memecoin for the 2026 FIFA World Cup — the first
+            tournament hosted by three nations. Three colours on every shirt.
+            Three mascots on every page. One big loud summer.
+          </p>
+
+          <div class="hero-actions reveal">
+            <a
+              class="btn solid"
+              href="https://pump.fun/coin/8GxLxKA8tf3h8JUkXFfP4dNyn6D2vvwyGif5wanRpump"
+              target="_blank"
+              rel="noopener"
+              data-sfx="whistle"
+              data-haptic="strong"
+            >
+              Buy Now <svg aria-hidden="true"><use href="#i-arr" /></svg>
+            </a>
+            <a
+              class="btn ghost"
+              href="#chart"
+              data-sfx="kick"
+              data-haptic="light"
+            >
+              <svg aria-hidden="true"><use href="#i-chart" /></svg> Read The
+              Chart
+            </a>
+          </div>
+        </div>
+
+        <div class="hero-art reveal">
+          <div class="corner">ISSUE № 01</div>
+          <img
+            src="Assets/hero.webp"
+            alt="Zayu the Jaguar, Maple the Moose and Clutch the Eagle — the 2026 mascots"
+            fetchpriority="high"
+            decoding="async"
+          />
+          <div class="price-strip">
+            <span>LIVE · $MASCOTS / SOL</span>
+            <span class="tick">● DexScreener</span>
+          </div>
+          <svg class="ball-deco" viewBox="0 0 100 100" aria-hidden="true">
+            <circle
+              cx="50"
+              cy="50"
+              r="48"
+              fill="#fff"
+              stroke="#12100C"
+              stroke-width="3"
+            />
+            <polygon points="50,25 62,34 58,48 42,48 38,34" fill="#12100C" />
+            <polygon points="30,42 38,48 34,62 22,58 20,48" fill="#12100C" />
+            <polygon points="70,42 80,48 78,58 66,62 62,48" fill="#12100C" />
+            <polygon points="42,60 58,60 62,72 50,80 38,72" fill="#12100C" />
+          </svg>
+        </div>
+      </div>
+    </header>
+
+    <!-- ============== CA BAND ============== -->
+    <div class="ca-band">
+      <svg aria-hidden="true"><use href="#i-coin" /></svg>
+      <span class="ca-label">Contract</span>
+      <span class="ca-value" id="ca-1"
+        >8GxLxKA8tf3h8JUkXFfP4dNyn6D2vvwyGif5wanRpump</span
+      >
+      <button
+        class="ca-copy"
+        data-copy="ca-1"
+        aria-label="Copy contract address"
+      >
+        <svg aria-hidden="true"><use href="#i-copy" /></svg> Copy
+      </button>
+    </div>
+
+    <!-- ============== REVEAL — OFFICIAL FIFA VIDEO (dark stadium theme) ============== -->
+    <section id="reveal" class="reveal-section" aria-labelledby="reveal-title">
+      <!-- pitch lines & stadium lights -->
+      <div class="rv-bg" aria-hidden="true">
+        <div class="rv-bg-grad"></div>
+        <div class="rv-bg-lines"></div>
+        <div class="rv-bg-circle"></div>
+        <div class="rv-spot rv-spot-l"></div>
+        <div class="rv-spot rv-spot-r"></div>
+      </div>
+
+      <div class="wrap rv-wrap">
+        <div class="rv-head reveal">
+          <div class="rv-chip">FIFA Official · Mascot Reveal</div>
+          <h2 id="reveal-title" class="rv-title display">
+            Caught <span class="gold">Live.</span><br />The
+            <span class="outline-dark">Reveal.</span>
+          </h2>
+          <p class="rv-sub">
+            The moment Maple, Zayu and Clutch stepped onto the world stage.
+            Watch FIFA's official unveiling — straight from the source.
+          </p>
+        </div>
+
+        <div class="rv-stage reveal pv-wrap">
+          <div class="rv-screen">
+            <div class="pv-frame rv-pv-frame">
+              <video
+                class="pv-media rv-media"
+                poster="Assets/reveal-poster.jpg"
+                playsinline
+                preload="metadata"
+                tabindex="-1"
+              >
+                <source src="Assets/reveal.webm" type="video/webm" />
+                <source src="Assets/reveal.mp4" type="video/mp4" />
+              </video>
+              <button
+                class="pv-bigplay rv-bigplay"
+                aria-label="Play reveal video"
+              >
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path fill="currentColor" d="M8 5v14l11-7z" />
+                </svg>
+              </button>
+              <div class="pv-controls" aria-hidden="false">
+                <button class="pv-btn pv-play" aria-label="Play or pause">
+                  <svg class="ic-play" viewBox="0 0 24 24" aria-hidden="true">
+                    <path fill="currentColor" d="M8 5v14l11-7z" />
+                  </svg>
+                  <svg class="ic-pause" viewBox="0 0 24 24" aria-hidden="true">
+                    <path fill="currentColor" d="M6 5h4v14H6zM14 5h4v14h-4z" />
+                  </svg>
+                </button>
+                <div class="pv-scrub">
+                  <div class="pv-track"><div class="pv-fill"></div></div>
+                  <input
+                    class="pv-seek"
+                    type="range"
+                    min="0"
+                    max="1000"
+                    value="0"
+                    step="1"
+                    aria-label="Seek"
+                  />
+                </div>
+                <div class="pv-time">
+                  <span class="pv-cur">0:00</span><span class="pv-slash">/</span
+                  ><span class="pv-dur">1:06</span>
+                </div>
+                <button
+                  class="pv-btn pv-mute"
+                  aria-label="Mute or unmute"
+                  aria-pressed="false"
+                >
+                  <svg class="ic-vol" viewBox="0 0 24 24" aria-hidden="true">
+                    <path
+                      fill="currentColor"
+                      d="M3 10v4h4l5 4V6L7 10H3zm13.5 2a4.5 4.5 0 0 0-2.5-4v8a4.5 4.5 0 0 0 2.5-4zM14 3.23v2.06a7 7 0 0 1 0 13.42v2.06a9 9 0 0 0 0-17.54z"
+                    />
+                  </svg>
+                  <svg class="ic-mute" viewBox="0 0 24 24" aria-hidden="true">
+                    <path
+                      fill="currentColor"
+                      d="M3 10v4h4l5 4V6L7 10H3zm16.59-2L22 10.41 20.41 12 22 13.59 20.59 15 19 13.41 17.41 15 16 13.59 17.59 12 16 10.41 17.41 9 19 10.59z"
+                    />
+                  </svg>
+                </button>
+                <button class="pv-btn pv-fs" aria-label="Toggle fullscreen">
+                  <svg viewBox="0 0 24 24" aria-hidden="true">
+                    <path
+                      fill="currentColor"
+                      d="M7 14H5v5h5v-2H7v-3zm-2-4h2V7h3V5H5v5zm12 7h-3v2h5v-5h-2v3zM14 5v2h3v3h2V5h-5z"
+                    />
+                  </svg>
+                </button>
+              </div>
+            </div>
+            <div class="rv-stripes" aria-hidden="true">
+              <span class="rv-s rv-s-mx"></span>
+              <span class="rv-s rv-s-ca"></span>
+              <span class="rv-s rv-s-us"></span>
+            </div>
+          </div>
+
+          <div class="rv-ticker" aria-hidden="true">
+            <div class="rv-ticker-track">
+              <span>● MAPLE · GOALKEEPER · CAN</span
+              ><span class="rv-sep">◆</span> <span>● ZAYU · STRIKER · MEX</span
+              ><span class="rv-sep">◆</span>
+              <span>● CLUTCH · MIDFIELDER · USA</span
+              ><span class="rv-sep">◆</span> <span>● WE ARE 26™</span
+              ><span class="rv-sep">◆</span>
+              <span>● MAPLE · GOALKEEPER · CAN</span
+              ><span class="rv-sep">◆</span> <span>● ZAYU · STRIKER · MEX</span
+              ><span class="rv-sep">◆</span>
+              <span>● CLUTCH · MIDFIELDER · USA</span
+              ><span class="rv-sep">◆</span> <span>● WE ARE 26™</span
+              ><span class="rv-sep">◆</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============== SQUAD ============== -->
+    <section id="squad">
+      <div class="net-divider"></div>
+      <div class="wrap">
+        <div class="section-head">
+          <div>
+            <div class="chapter reveal">
+              <span class="num">01</span> Meet the Squad
+            </div>
+            <h2 class="section-title display reveal">
+              Three Badges.<br /><span class="red">One</span>
+              <span class="green">Dress-</span
+              ><span class="blue">ing</span> Room.
+            </h2>
+          </div>
+          <p class="lede reveal">
+            No GOAT debates here. Just three fictional lads in kit who'll do
+            ninety plus injury-time for the community.
+          </p>
+        </div>
+
+        <div class="squad">
+          <article class="player mx reveal" data-tilt>
+            <span class="jersey" aria-hidden="true">09</span>
+            <div class="plate"><span class="flag"></span> Mexico · Striker</div>
+            <h3>Zayu</h3>
+            <div class="role">The Jaguar</div>
+            <p class="bio">
+              Silky first touch, no patience for possession football. Will
+              nutmeg you and then forget your name.
+            </p>
+            <div class="stats" aria-label="Zayu ratings">
+              <div class="stat">
+                <div class="n">96</div>
+                <div class="l">Pace</div>
+              </div>
+              <div class="stat">
+                <div class="n">91</div>
+                <div class="l">Shot</div>
+              </div>
+              <div class="stat">
+                <div class="n">88</div>
+                <div class="l">Drib</div>
+              </div>
+            </div>
+            <div class="art">
+              <img
+                src="Assets/freepik__put-in-different-pose-and-use-the-football-attache__81989.webp"
+                alt="Zayu"
+                loading="lazy"
+                decoding="async"
+              />
+            </div>
+          </article>
+
+          <article class="player ca reveal" data-tilt>
+            <span class="jersey" aria-hidden="true">11</span>
+            <div class="plate"><span class="flag"></span> Canada · Winger</div>
+            <h3>Maple</h3>
+            <div class="role">The Moose</div>
+            <p class="bio">
+              Built for transitions, unbothered by weather. Runs harder in the
+              90th than most players do warming up.
+            </p>
+            <div class="stats" aria-label="Maple ratings">
+              <div class="stat">
+                <div class="n">99</div>
+                <div class="l">Pace</div>
+              </div>
+              <div class="stat">
+                <div class="n">82</div>
+                <div class="l">Pass</div>
+              </div>
+              <div class="stat">
+                <div class="n">90</div>
+                <div class="l">Stam</div>
+              </div>
+            </div>
+            <div class="art">
+              <img
+                src="Assets/freepik__put-in-different-pose-and-use-the-football-attache__81988.webp"
+                alt="Maple"
+                loading="lazy"
+                decoding="async"
+              />
+            </div>
+          </article>
+
+          <article class="player us reveal" data-tilt>
+            <span class="jersey" aria-hidden="true">10</span>
+            <div class="plate"><span class="flag"></span> USA · Playmaker</div>
+            <h3>Clutch</h3>
+            <div class="role">The Eagle</div>
+            <p class="bio">
+              Captain. Reads the game two passes early. Takes set pieces. Takes
+              the last penalty. Takes himself seriously.
+            </p>
+            <div class="stats" aria-label="Clutch ratings">
+              <div class="stat">
+                <div class="n">94</div>
+                <div class="l">Pass</div>
+              </div>
+              <div class="stat">
+                <div class="n">92</div>
+                <div class="l">Vis</div>
+              </div>
+              <div class="stat">
+                <div class="n">95</div>
+                <div class="l">Set</div>
+              </div>
+            </div>
+            <div class="art">
+              <img
+                src="Assets/freepik__put-in-different-pose-and-use-the-football-attache__81987.webp"
+                alt="Clutch"
+                loading="lazy"
+                decoding="async"
+              />
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============== TOKENOMICS · MATCH REPORT ============== -->
+    <section id="tokenomics">
+      <div class="net-divider"></div>
+      <div class="wrap">
+        <div class="section-head">
+          <div>
+            <div class="chapter reveal">
+              <span class="num">02</span> Match report
+            </div>
+            <h2 class="section-title display reveal">
+              Rules Of <span class="red">The</span>
+              <span class="outline">Match.</span>
+            </h2>
+          </div>
+          <p class="lede reveal">
+            The stat sheet from the pitch. Public, verifiable, no extra time.
+          </p>
+        </div>
+
+        <div class="matchcard reveal">
+          <header class="matchcard-head">
+            <div class="mc-title">Official Match Report · 2026 Opener</div>
+            <div class="mc-meta">
+              <span>Ref · On-chain</span>
+              <span class="seal"
+                ><svg aria-hidden="true"><use href="#i-check" /></svg>
+                Verified</span
+              >
+            </div>
+          </header>
+
+          <div class="stats4">
+            <div class="stat-cell mx">
+              <div class="icon">
+                <svg aria-hidden="true"><use href="#i-ball" /></svg>
+              </div>
+              <div class="k">Supply</div>
+              <div class="v">
+                <span class="count" data-to="1" data-decimals="0">0</span
+                ><span class="u">B</span>
+              </div>
+              <div class="h">Fixed. Mint revoked at launch.</div>
+              <div class="bar" aria-hidden="true"><i data-fill="100"></i></div>
+            </div>
+            <div class="stat-cell ca">
+              <div class="icon">
+                <svg aria-hidden="true"><use href="#i-shield" /></svg>
+              </div>
+              <div class="k">Tax</div>
+              <div class="v">
+                <span class="count" data-to="0" data-decimals="0">0</span
+                ><span class="u">/0</span>
+              </div>
+              <div class="h">No buy tax. No sell tax.</div>
+              <div class="bar" aria-hidden="true"><i data-fill="100"></i></div>
+            </div>
+            <div class="stat-cell au">
+              <div class="icon">
+                <svg aria-hidden="true"><use href="#i-flame" /></svg>
+              </div>
+              <div class="k">Liquidity</div>
+              <div class="v">
+                <span class="count" data-to="100" data-decimals="0">0</span
+                ><span class="u">%</span>
+              </div>
+              <div class="h">Burned. Rug-proof by design.</div>
+              <div class="bar" aria-hidden="true"><i data-fill="100"></i></div>
+            </div>
+            <div class="stat-cell us">
+              <div class="icon">
+                <svg aria-hidden="true"><use href="#i-users" /></svg>
+              </div>
+              <div class="k">Team</div>
+              <div class="v">
+                <span class="count" data-to="0" data-decimals="0">0</span
+                ><span class="u">%</span>
+              </div>
+              <div class="h">No vesting. No insiders.</div>
+              <div class="bar" aria-hidden="true"><i data-fill="0"></i></div>
+            </div>
+          </div>
+
+          <div class="mc-body">
+            <div class="mc-summary">
+              <h3>Final Whistle</h3>
+              <p>
+                $MASCOTS launched fair on pump.fun with one bonding curve — no
+                presale, no allocations, no OTC rounds. What lives on-chain is
+                the whole float.
+              </p>
+              <p>
+                On graduation to Raydium, every LP token was burned and both
+                mint and freeze authorities revoked. The chart, the holders and
+                the scoresheet all read the same.
+              </p>
+              <div class="sign">
+                <div>
+                  <div
+                    class="sig"
+                    style="
+                      font-family: 'Segoe Script', 'Brush Script MT', cursive;
+                      font-size: 28px;
+                    "
+                  >
+                    — the squad
+                  </div>
+                  <div class="who" style="margin-top: 2px">
+                    match officiated on-chain
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="mc-scoreboard" aria-label="Match statistics">
+              <div class="mc-row ok">
+                <span class="mc-l"
+                  ><svg aria-hidden="true"><use href="#i-globe" /></svg> Public
+                  market</span
+                ><span class="mc-r">100%</span>
+              </div>
+              <div class="mc-row warn">
+                <span class="mc-l"
+                  ><svg aria-hidden="true"><use href="#i-users" /></svg> Team /
+                  insiders</span
+                ><span class="mc-r">0%</span>
+              </div>
+              <div class="mc-row ok">
+                <span class="mc-l"
+                  ><svg aria-hidden="true"><use href="#i-flame" /></svg> LP
+                  burned</span
+                ><span class="mc-r">✓</span>
+              </div>
+              <div class="mc-row ok">
+                <span class="mc-l"
+                  ><svg aria-hidden="true"><use href="#i-lock" /></svg> Mint
+                  revoked</span
+                ><span class="mc-r">✓</span>
+              </div>
+              <div class="mc-row ok">
+                <span class="mc-l"
+                  ><svg aria-hidden="true"><use href="#i-lock" /></svg> Freeze
+                  revoked</span
+                ><span class="mc-r">✓</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============== CHART ============== -->
+    <section id="chart">
+      <div class="net-divider"></div>
+      <div class="wrap">
+        <div class="section-head">
+          <div>
+            <div class="chapter reveal">
+              <span class="num">03</span> The Scoreboard
+            </div>
+            <h2 class="section-title display reveal">
+              Live <span class="blue">Price.</span>
+              <span class="outline">Every Tick.</span>
+            </h2>
+          </div>
+        </div>
+
+        <div class="chart-card reveal">
+          <div class="chart-head">
+            <span class="lbl"
+              ><svg aria-hidden="true"><use href="#i-chart" /></svg> $MASCOTS /
+              SOL</span
+            >
+            <span class="tag"
+              ><span class="live">LIVE</span> · DexScreener · 15m</span
+            >
+          </div>
+          <div id="dexscreener-embed">
+            <iframe
+              src="https://dexscreener.com/solana/D2g8AAUqBzLpX7mxp6yg8v3Psau6hVc2dRLqjuaQXZyP?embed=1&loadChartSettings=0&chartLeftToolbar=0&chartDefaultOnMobile=1&chartTheme=dark&theme=dark&chartStyle=0&chartType=usd&interval=15"
+              title="$MASCOTS / SOL live chart"
+              loading="lazy"
+            ></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============== HOW TO BUY ============== -->
+    <section id="buy">
+      <div class="net-divider"></div>
+      <div class="wrap">
+        <div class="section-head">
+          <div>
+            <div class="chapter reveal">
+              <span class="num">04</span> How to Buy
+            </div>
+            <h2 class="section-title display reveal">
+              Four Touches.<br /><span class="red">One Goal.</span>
+            </h2>
+          </div>
+          <p class="lede reveal">
+            First Solana trade? No stress — it's quicker than a VAR check.
+          </p>
+        </div>
+
+        <div class="how-grid reveal">
+          <div class="how-step">
+            <div class="head">
+              <div class="num">01</div>
+              <div class="step-icon">
+                <svg aria-hidden="true"><use href="#i-wallet" /></svg>
+              </div>
+            </div>
+            <h3>Get a wallet</h3>
+            <p>
+              Install
+              <a href="https://phantom.app" target="_blank" rel="noopener"
+                >Phantom</a
+              >
+              or
+              <a href="https://solflare.com" target="_blank" rel="noopener"
+                >Solflare</a
+              >. Back up the seed phrase — no screenshots.
+            </p>
+          </div>
+          <div class="how-step">
+            <div class="head">
+              <div class="num">02</div>
+              <div class="step-icon">
+                <svg aria-hidden="true"><use href="#i-coin" /></svg>
+              </div>
+            </div>
+            <h3>Fund with SOL</h3>
+            <p>
+              Send SOL from Coinbase, Binance, or Kraken to your wallet's Solana
+              address. Leave a bit for fees.
+            </p>
+          </div>
+          <div class="how-step">
+            <div class="head">
+              <div class="num">03</div>
+              <div class="step-icon">
+                <svg aria-hidden="true"><use href="#i-swap" /></svg>
+              </div>
+            </div>
+            <h3>Swap on Jupiter</h3>
+            <p>
+              Open
+              <a
+                href="https://jup.ag/swap?sell=So11111111111111111111111111111111111111112&buy=8GxLxKA8tf3h8JUkXFfP4dNyn6D2vvwyGif5wanRpump"
+                target="_blank"
+                rel="noopener"
+                >jup.ag</a
+              >, paste the contract, pick slippage, confirm.
+            </p>
+          </div>
+          <div class="how-step">
+            <div class="head">
+              <div class="num">04</div>
+              <div class="step-icon">
+                <svg aria-hidden="true"><use href="#i-trophy" /></svg>
+              </div>
+            </div>
+            <h3>Hold the cup</h3>
+            <p>
+              Tokens arrive in your wallet in seconds. Screenshot it. Send it to
+              the group. Done.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============== PRESS — THE WORLD IS TALKING ============== -->
+    <section id="press">
+      <div class="net-divider"></div>
+      <div class="wrap">
+        <div class="section-head">
+          <div>
+            <div class="chapter reveal">
+              <span class="num">05</span> As Featured In
+            </div>
+            <h2 class="section-title display reveal">
+              The World Is <span class="red">Talking</span><br /><span
+                class="outline"
+                >About Us.</span
+              >
+            </h2>
+          </div>
+          <p class="lede reveal">
+            Every major outlet covered the reveal of Maple, Zayu and Clutch. The
+            mascots are the story — and $MASCOTS is how the internet trades it.
+          </p>
+        </div>
+
+        <div class="press-video reveal pv-wrap" id="press-video">
+          <div class="pv-frame">
+            <span class="pv-caption">Featured Clip</span>
+            <video
+              class="pv-media"
+              poster="Assets/press-video-poster.jpg"
+              playsinline
+              preload="metadata"
+              tabindex="-1"
+            >
+              <source src="Assets/press-video.webm" type="video/webm" />
+              <source src="Assets/press-video.mp4" type="video/mp4" />
+            </video>
+            <button class="pv-bigplay" aria-label="Play video">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path fill="currentColor" d="M8 5v14l11-7z" />
+              </svg>
+            </button>
+            <div class="pv-controls" aria-hidden="false">
+              <button class="pv-btn pv-play" aria-label="Play or pause">
+                <svg class="ic-play" viewBox="0 0 24 24" aria-hidden="true">
+                  <path fill="currentColor" d="M8 5v14l11-7z" />
+                </svg>
+                <svg class="ic-pause" viewBox="0 0 24 24" aria-hidden="true">
+                  <path fill="currentColor" d="M6 5h4v14H6zM14 5h4v14h-4z" />
+                </svg>
+              </button>
+              <div class="pv-scrub">
+                <div class="pv-track"><div class="pv-fill"></div></div>
+                <input
+                  class="pv-seek"
+                  type="range"
+                  min="0"
+                  max="1000"
+                  value="0"
+                  step="1"
+                  aria-label="Seek"
+                />
+              </div>
+              <div class="pv-time">
+                <span class="pv-cur">0:00</span><span class="pv-slash">/</span
+                ><span class="pv-dur">0:19</span>
+              </div>
+              <button
+                class="pv-btn pv-mute"
+                aria-label="Mute or unmute"
+                aria-pressed="false"
+              >
+                <svg class="ic-vol" viewBox="0 0 24 24" aria-hidden="true">
+                  <path
+                    fill="currentColor"
+                    d="M3 10v4h4l5 4V6L7 10H3zm13.5 2a4.5 4.5 0 0 0-2.5-4v8a4.5 4.5 0 0 0 2.5-4zM14 3.23v2.06a7 7 0 0 1 0 13.42v2.06a9 9 0 0 0 0-17.54z"
+                  />
+                </svg>
+                <svg class="ic-mute" viewBox="0 0 24 24" aria-hidden="true">
+                  <path
+                    fill="currentColor"
+                    d="M3 10v4h4l5 4V6L7 10H3zm16.59-2L22 10.41 20.41 12 22 13.59 20.59 15 19 13.41 17.41 15 16 13.59 17.59 12 16 10.41 17.41 9 19 10.59z"
+                  />
+                </svg>
+              </button>
+              <button class="pv-btn pv-fs" aria-label="Toggle fullscreen">
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path
+                    fill="currentColor"
+                    d="M7 14H5v5h5v-2H7v-3zm-2-4h2V7h3V5H5v5zm12 7h-3v2h5v-5h-2v3zM14 5v2h3v3h2V5h-5z"
+                  />
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="press-grid reveal">
+          <a
+            class="press-card pc-mx"
+            href="https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/clutch-maple-zayu-mascots-unveiled"
+            target="_blank"
+            rel="noopener"
+            aria-label="Read the FIFA article"
+          >
+            <div class="press-thumb">
+              <img
+                src="Assets/press/fifa.jpg"
+                alt=""
+                loading="lazy"
+                decoding="async"
+              />
+            </div>
+            <div class="press-body">
+              <div class="press-outlet">FIFA</div>
+              <h3 class="press-head">
+                Colourful trio of mascots unveiled for FIFA World Cup 26
+              </h3>
+              <div class="press-meta">
+                <span class="read"
+                  >Read Article
+                  <svg aria-hidden="true"><use href="#i-arr" /></svg
+                ></span>
+              </div>
+            </div>
+          </a>
+
+          <a
+            class="press-card pc-ca"
+            href="https://www.cnn.com/2025/09/25/sport/soccer-world-cup-2026-mascots-revealed"
+            target="_blank"
+            rel="noopener"
+            aria-label="Read the CNN article"
+          >
+            <div class="press-thumb">
+              <img
+                src="Assets/press/clutch.png"
+                alt=""
+                loading="lazy"
+                decoding="async"
+              />
+            </div>
+            <div class="press-body">
+              <div class="press-outlet">CNN</div>
+              <h3 class="press-head">
+                Meet Clutch, Maple and Zayu, the cute mascots set to star at
+                FIFA's 2026 World Cup
+              </h3>
+              <div class="press-meta">
+                <span class="read"
+                  >Read Article
+                  <svg aria-hidden="true"><use href="#i-arr" /></svg
+                ></span>
+              </div>
+            </div>
+          </a>
+
+          <a
+            class="press-card pc-us"
+            href="https://www.espn.com/soccer/story/_/id/46377619/who-2026-fifa-world-cup-mascots-maple-zayu-clutch"
+            target="_blank"
+            rel="noopener"
+            aria-label="Read the ESPN article"
+          >
+            <div class="press-thumb">
+              <img
+                src="Assets/press/maple.png"
+                alt=""
+                loading="lazy"
+                decoding="async"
+              />
+            </div>
+            <div class="press-body">
+              <div class="press-outlet">ESPN</div>
+              <h3 class="press-head">
+                Who are the 2026 World Cup mascots? Maple, Zayu and Clutch!
+              </h3>
+              <div class="press-meta">
+                <span class="read"
+                  >Read Article
+                  <svg aria-hidden="true"><use href="#i-arr" /></svg
+                ></span>
+              </div>
+            </div>
+          </a>
+
+          <a
+            class="press-card pc-gold"
+            href="https://www.foxsports.com/stories/soccer/2026-fifa-world-cup-mascots-zayu-clutch-maple-usa-mexico-canada"
+            target="_blank"
+            rel="noopener"
+            aria-label="Read the FOX Sports article"
+          >
+            <div class="press-thumb">
+              <img
+                src="Assets/press/zayu.png"
+                alt=""
+                loading="lazy"
+                decoding="async"
+              />
+            </div>
+            <div class="press-body">
+              <div class="press-outlet">FOX Sports</div>
+              <h3 class="press-head">
+                World Cup Mascots: Maple the Moose, Zayu the Jaguar, and Clutch
+                the Bald Eagle
+              </h3>
+              <div class="press-meta">
+                <span class="read"
+                  >Read Article
+                  <svg aria-hidden="true"><use href="#i-arr" /></svg
+                ></span>
+              </div>
+            </div>
+          </a>
+
+          <a
+            class="press-card pc-ink"
+            href="https://www.axios.com/local/kansas-city/2025/09/29/fifa-young-audiences-video-games-mascots-2026-world-cup"
+            target="_blank"
+            rel="noopener"
+            aria-label="Read the Axios article"
+          >
+            <div class="press-thumb">
+              <img
+                src="Assets/press/fifaworldcupnews.webp"
+                alt=""
+                loading="lazy"
+                decoding="async"
+              />
+            </div>
+            <div class="press-body">
+              <div class="press-outlet">Axios</div>
+              <h3 class="press-head">
+                FIFA wants to reach young audiences with 2026 World Cup mascots
+              </h3>
+              <div class="press-meta">
+                <span class="read"
+                  >Read Article
+                  <svg aria-hidden="true"><use href="#i-arr" /></svg
+                ></span>
+              </div>
+            </div>
+          </a>
+
+          <a
+            class="press-card pc-mx"
+            href="https://mexiconewsdaily.com/lifestyle/world-cup-mascots-fifa-2026-clutch-maple-zayu/"
+            target="_blank"
+            rel="noopener"
+            aria-label="Read the Mexico News Daily article"
+          >
+            <div class="press-thumb">
+              <img
+                src="Assets/press/mexiconews.jpg"
+                alt=""
+                loading="lazy"
+                decoding="async"
+              />
+            </div>
+            <div class="press-body">
+              <div class="press-outlet">Mexico News Daily</div>
+              <h3 class="press-head">
+                Meet Clutch, Maple and Zayu, the 2026 FIFA World Cup mascots
+              </h3>
+              <div class="press-meta">
+                <span class="read"
+                  >Read Article
+                  <svg aria-hidden="true"><use href="#i-arr" /></svg
+                ></span>
+              </div>
+            </div>
+          </a>
+
+          <a
+            class="press-card pc-ca"
+            href="https://gradientgroup.com/the-2026-world-cup-mascots-are-fifas-most-innovative-yet/"
+            target="_blank"
+            rel="noopener"
+            aria-label="Read the Gradient Group article"
+          >
+            <div class="press-thumb">
+              <img
+                src="Assets/press/gradient.jpg"
+                alt=""
+                loading="lazy"
+                decoding="async"
+              />
+            </div>
+            <div class="press-body">
+              <div class="press-outlet">Gradient</div>
+              <h3 class="press-head">
+                The 2026 World Cup mascots are FIFA's most innovative yet
+              </h3>
+              <div class="press-meta">
+                <span class="read"
+                  >Read Article
+                  <svg aria-hidden="true"><use href="#i-arr" /></svg
+                ></span>
+              </div>
+            </div>
+          </a>
+
+          <a
+            class="press-card pc-us"
+            href="https://en.wikipedia.org/wiki/Maple,_Zayu_and_Clutch"
+            target="_blank"
+            rel="noopener"
+            aria-label="Read the Wikipedia article"
+          >
+            <div class="press-thumb">
+              <img
+                src="Assets/press/wikipedia.jpeg"
+                alt=""
+                loading="lazy"
+                decoding="async"
+              />
+            </div>
+            <div class="press-body">
+              <div class="press-outlet">Wikipedia</div>
+              <h3 class="press-head">
+                Maple, Zayu and Clutch — the official 2026 FIFA World Cup
+                mascots
+              </h3>
+              <div class="press-meta">
+                <span class="read"
+                  >Read Article
+                  <svg aria-hidden="true"><use href="#i-arr" /></svg
+                ></span>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============== VIDEO ============== -->
+    <section id="video">
+      <div class="net-divider"></div>
+      <div class="wrap">
+        <div class="section-head">
+          <div>
+            <div class="chapter reveal">
+              <span class="num">06</span> Matchday Reel
+            </div>
+            <h2 class="section-title display reveal">
+              Roll <span class="green">The</span>
+              <span class="outline">Tape.</span>
+            </h2>
+          </div>
+        </div>
+
+        <div class="video-bundle">
+          <div class="video-card reveal">
+            <span class="cap">Clip 01</span>
+            <video
+              src="Assets/vid1.mp4"
+              autoplay
+              muted
+              loop
+              playsinline
+              preload="metadata"
+              aria-label="Mascots hype reel"
+            ></video>
+          </div>
+          <div class="video-card reveal">
+            <span class="cap">Clip 02</span>
+            <video
+              src="Assets/vid2.mp4"
+              autoplay
+              muted
+              loop
+              playsinline
+              preload="metadata"
+              aria-label="Matchday clip"
+            ></video>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============== MEMES GALLERY ============== -->
+    <section id="memes">
+      <div class="net-divider"></div>
+      <div class="wrap">
+        <div class="section-head">
+          <div>
+            <div class="chapter reveal">
+              <span class="num">07</span> Meme Locker
+            </div>
+            <h2 class="section-title display reveal">
+              Certified <span class="red">Propaganda.</span>
+            </h2>
+          </div>
+          <p class="lede reveal">
+            Posters, reels, shower-thought mock-ups. Steal them, remix them,
+            post them — the more they travel, the bigger the cup.
+          </p>
+        </div>
+
+        <div class="memes-grid reveal" id="memes-grid" role="list">
+          <div class="meme-tile skeleton feature" aria-hidden="true"></div>
+          <div class="meme-tile skeleton" aria-hidden="true"></div>
+          <div class="meme-tile skeleton" aria-hidden="true"></div>
+          <div class="meme-tile skeleton" aria-hidden="true"></div>
+          <div class="meme-tile skeleton" aria-hidden="true"></div>
+          <div class="meme-tile skeleton" aria-hidden="true"></div>
+          <div class="meme-tile skeleton" aria-hidden="true"></div>
+          <div class="meme-tile skeleton" aria-hidden="true"></div>
+        </div>
+
+        <div class="memes-foot reveal">
+          <a
+            class="btn ghost"
+            href="https://t.me/wcmascots2026"
+            target="_blank"
+            rel="noopener"
+            data-sfx="kick"
+            data-haptic="light"
+          >
+            <svg aria-hidden="true"><use href="#i-tg" /></svg> Drop yours in
+            Telegram
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============== LIGHTBOX ============== -->
+    <div
+      class="lightbox"
+      id="lightbox"
+      role="dialog"
+      aria-modal="true"
+      aria-hidden="true"
+      aria-label="Meme viewer"
+    >
+      <button class="lb-btn lb-close" id="lb-close" aria-label="Close">
+        ×
+      </button>
+      <button class="lb-btn lb-prev" id="lb-prev" aria-label="Previous meme">
+        ‹
+      </button>
+      <button class="lb-btn lb-next" id="lb-next" aria-label="Next meme">
+        ›
+      </button>
+      <figure class="lb-stage">
+        <img class="lb-img" id="lb-img" src="" alt="" />
+        <figcaption class="lb-cap" id="lb-cap"></figcaption>
+      </figure>
+    </div>
+
+    <!-- ============== FINAL CTA ============== -->
+    <section class="final">
+      <div class="confetti-rain" aria-hidden="true" id="final-confetti"></div>
+      <div class="wrap">
+        <div
+          class="chapter reveal"
+          style="
+            color: var(--gold-bright);
+            justify-content: center;
+            display: inline-flex;
+          "
+        >
+          <span
+            class="num"
+            style="background: var(--gold-bright); color: var(--ink)"
+            >08</span
+          >
+          Join the squad
+        </div>
+        <h2 class="reveal">The Cup <span class="gold">Belongs</span> To Us.</h2>
+        <p class="reveal">
+          Every shirt counts, every holder is on the roster. Bring your friends.
+          Bring your worst takes. Bring your bag.
+        </p>
+        <div class="hero-actions reveal">
+          <a
+            class="btn solid gold-cta"
+            href="https://pump.fun/coin/8GxLxKA8tf3h8JUkXFfP4dNyn6D2vvwyGif5wanRpump"
+            target="_blank"
+            rel="noopener"
+            data-sfx="goal"
+            data-haptic="celebrate"
+            data-confetti
+          >
+            Buy Now <svg aria-hidden="true"><use href="#i-arr" /></svg>
+          </a>
+          <a
+            class="btn ghost"
+            style="color: var(--cream); border-color: var(--cream)"
+            href="https://t.me/wcmascots2026"
+            target="_blank"
+            rel="noopener"
+            data-sfx="kick"
+            data-haptic="light"
+          >
+            <svg aria-hidden="true"><use href="#i-tg" /></svg> Telegram
+          </a>
+          <a
+            class="btn ghost"
+            style="color: var(--cream); border-color: var(--cream)"
+            href="https://x.com/mascots2026"
+            target="_blank"
+            rel="noopener"
+            data-sfx="kick"
+            data-haptic="light"
+          >
+            <svg aria-hidden="true"><use href="#i-x" /></svg> Follow on X
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============== FOOTER ============== -->
+    <footer>
+      <div
+        class="confetti-rain foot-confetti"
+        aria-hidden="true"
+        id="foot-confetti"
+      ></div>
+      <div class="foot-grid">
+        <div>
+          <p class="foot-brand">$MASCOTS<span class="g">·</span></p>
+          <p class="foot-disc">
+            2026 World Cup Mascots — a community meme asset on Solana. Not
+            affiliated with FIFA, any participating federation, or any host
+            nation. No financial advice; tokens have no utility and no intrinsic
+            value.
+          </p>
+        </div>
+        <div>
+          <h4>Market</h4>
+          <ul>
+            <li>
+              <a
+                href="https://pump.fun/coin/8GxLxKA8tf3h8JUkXFfP4dNyn6D2vvwyGif5wanRpump"
+                target="_blank"
+                rel="noopener"
+                >Pump.fun</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://dexscreener.com/solana/D2g8AAUqBzLpX7mxp6yg8v3Psau6hVc2dRLqjuaQXZyP"
+                target="_blank"
+                rel="noopener"
+                >DexScreener</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://jup.ag/swap?sell=So11111111111111111111111111111111111111112&buy=8GxLxKA8tf3h8JUkXFfP4dNyn6D2vvwyGif5wanRpump"
+                target="_blank"
+                rel="noopener"
+                >Jupiter</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://solscan.io/token/8GxLxKA8tf3h8JUkXFfP4dNyn6D2vvwyGif5wanRpump"
+                target="_blank"
+                rel="noopener"
+                >Solscan</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div>
+          <h4>Community</h4>
+          <ul>
+            <li>
+              <a
+                href="https://t.me/wcmascots2026"
+                target="_blank"
+                rel="noopener"
+                ><svg aria-hidden="true"><use href="#i-tg" /></svg>Telegram</a
+              >
+            </li>
+            <li>
+              <a href="https://x.com/mascots2026" target="_blank" rel="noopener"
+                ><svg aria-hidden="true"><use href="#i-x" /></svg>X · Twitter</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div>
+          <h4>Navigate</h4>
+          <ul>
+            <li><a href="#squad">Squad</a></li>
+            <li><a href="#tokenomics">Tokenomics</a></li>
+            <li><a href="#buy">How to buy</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="foot-bottom">
+        <span>© 2026 $MASCOTS</span>
+        <span style="font-family: ui-monospace, Consolas, monospace"
+          >CA: 8GxLxKA8tf3h8JUkXFfP4dNyn6D2vvwyGif5wanRpump</span
+        >
+      </div>
+    </footer>
+
+    <!-- ============== MOBILE STICKY BUY ============== -->
+    <div class="mobile-buy" aria-hidden="true">
+      <div>
+        <span class="label">$MASCOTS</span>
+        <span class="price">Solana · LP burned</span>
+      </div>
+      <a
+        href="https://pump.fun/coin/8GxLxKA8tf3h8JUkXFfP4dNyn6D2vvwyGif5wanRpump"
+        target="_blank"
+        rel="noopener"
+        data-sfx="whistle"
+        data-haptic="strong"
+      >
+        Buy Now <svg aria-hidden="true"><use href="#i-arr" /></svg>
+      </a>
+    </div>
+
+    <div class="toast" id="toast" role="status" aria-live="polite">
+      Contract copied
+    </div>
+
+    <script src="shared/fx.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
